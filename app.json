@@ -1,0 +1,21 @@
+{
+  "name": "kouhosha.info: All candidates of Japanese general election",
+  "description": "candidates information for the 48th general election of members of the House of Representatives",
+  "keywords": [
+    "Japanese General Election",
+    "House of Representatives",
+    "Code for Japan"
+  ],
+  "repository": "https://github.com/codeforjapan/codeforelection_front",
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate db:seed graydb:import"
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10.1"
+      }
+    }
+  ]
+}

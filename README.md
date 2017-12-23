@@ -25,3 +25,9 @@ docker-compose exec app bundle exec rake graydb:import
 ```
 
 その後、ブラウザから http://localhost:3000 にアクセスして下さい。
+
+### Herokuへのデプロイ
+
+以下のHerokuボタンを使って下さい。
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
