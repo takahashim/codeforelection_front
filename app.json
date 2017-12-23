@@ -8,7 +8,7 @@
   ],
   "repository": "https://github.com/codeforjapan/codeforelection_front",
   "scripts": {
-    "postdeploy": "bundle exec rake db:migrate db:seed graydb:import"
+    "postdeploy": "bundle exec rake db:migrate db:seed"
   },
   "addons": [
     {
